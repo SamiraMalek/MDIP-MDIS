@@ -1,4 +1,4 @@
-# MDIP: Misinformation Detection and Information Processing
+# MDIP: Misinformation Detection and Inoculation Processing
 
 This repository contains a comprehensive system for detecting and analyzing COVID-19 misinformation using machine learning techniques. The project combines fake news classification with topic modeling to provide detailed insights into misinformation patterns.
 
