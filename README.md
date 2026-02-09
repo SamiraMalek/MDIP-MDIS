@@ -1,6 +1,15 @@
 # MDIP: Misinformation Detection and Inoculation Processing
 
-This repository contains a comprehensive system for detecting and analyzing COVID-19 misinformation using machine learning techniques. The project combines fake news classification with topic modeling to provide detailed insights into misinformation patterns.
+## Overview
+
+This repository contains the official implementation of the methods proposed in:
+
+**Intervention in Health Misinformation Using Large Language Models for Automated Detection, Thematic Analysis, and Inoculation: Case Study on COVID-19**  
+Samira Malek, Christopher Griffin, Robert D. Fraleigh, Robert Lennon, Vishal Monga, Lijiang Shen  
+*Journal of Medical Internet Research (JMIR), 2026*
+
+The code supports automated detection of health misinformation, thematic analysis, and intervention (inoculation) using large language models, as evaluated in the COVID-19 case study presented in the paper.
+
 
 ## Project Structure
 
@@ -102,17 +111,19 @@ The system integrates with OpenAI's GPT-4 API for:
 Ensure you have a valid OpenAI API key and sufficient credits.
 
 
-## License
-
-This project is for research and educational purposes. Please ensure compliance with dataset licenses and OpenAI's terms of service.
-
 ## Citation
 
-If you use this work in your research, please cite the relevant datasets:
-- AAAI 2020 Constraint Dataset
-- FNIR COVID Dataset
-- IFCN COVID Misinformation Dataset
+If you use this repository in your research, please cite the following paper:
 
-## Contact
+```bibtex
+@article{malek2026intervention,
+  title   = {Intervention in Health Misinformation Using Large Language Models for Automated Detection, Thematic Analysis, and Inoculation: Case Study on COVID-19},
+  author  = {Malek, Samira and Griffin, Christopher and Fraleigh, Robert D. and Lennon, Robert and Monga, Vishal and Shen, Lijiang},
+  journal = {Journal of Medical Internet Research},
+  volume  = {28},
+  pages   = {e75500},
+  year    = {2026},
+  doi     = {10.2196/75500},
+  url     = {https://www.jmir.org/2026/1/e75500}
+}
 
-For questions or issues, please open an issue in the repository.
