@@ -2,21 +2,6 @@
 
 This repository contains a comprehensive system for detecting and analyzing COVID-19 misinformation using machine learning techniques. The project combines fake news classification with topic modeling to provide detailed insights into misinformation patterns.
 
-## Overview
-
-The MDIP system consists of two main components:
-1. **Fake News Classification**: A BERT-based classifier trained to distinguish between real and fake news
-2. **Topic Modeling**: BERTopic-based analysis to identify and categorize misinformation themes
-
-## Datasets Used
-
-### Training Datasets for Classifier
-- **AAAI 2020 Constraint**
-- **FNIR COVID**
-
-### Topic Modeling Dataset
-- **IFCN COVID Misinformation**: International Fact-Checking Network's COVID-19 misinformation dataset used for topic modeling and theme identification
-
 ## Project Structure
 
 ```
